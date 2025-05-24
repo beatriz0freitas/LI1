@@ -1,0 +1,59 @@
+Test suite primate-kong-test: RUNNING...
+Cases: 35  Tried: 0  Errors: 0  Failures: 0Cases: 35  Tried: 1  Errors: 0  Failures: 0Cases: 35  Tried: 2  Errors: 0  Failures: 0Cases: 35  Tried: 3  Errors: 0  Failures: 0Cases: 35  Tried: 4  Errors: 0  Failures: 0Cases: 35  Tried: 5  Errors: 0  Failures: 0Cases: 35  Tried: 6  Errors: 0  Failures: 0                                           ### Failure in: 0:6:"T7: Jogador colide com plataforma "
+test/Tarefa1Spec.hs:57
+expected: True
+ but got: False
+Cases: 35  Tried: 7  Errors: 0  Failures: 1                                           ### Failure in: 1:Tarefa2 (valida):0:"T01: Jogo que respeita todas as regras \233 v\225lido"
+test/Tarefa2Spec.hs:64
+expected: True
+ but got: False
+Cases: 35  Tried: 8  Errors: 0  Failures: 2Cases: 35  Tried: 9  Errors: 0  Failures: 2Cases: 35  Tried: 10  Errors: 0  Failures: 2Cases: 35  Tried: 11  Errors: 0  Failures: 2Cases: 35  Tried: 12  Errors: 0  Failures: 2Cases: 35  Tried: 13  Errors: 0  Failures: 2Cases: 35  Tried: 14  Errors: 0  Failures: 2Cases: 35  Tried: 15  Errors: 0  Failures: 2                                            ### Failure in: 2:0:"T1A: Inimigo 1 perde vida."
+test/Tarefa3Spec.hs:33
+expected: True
+ but got: False
+Cases: 35  Tried: 16  Errors: 0  Failures: 3Cases: 35  Tried: 17  Errors: 0  Failures: 3Cases: 35  Tried: 18  Errors: 0  Failures: 3                                            ### Failure in: 2:3:"T2A: Jogador apanha martelo e a flag fica True."
+test/Tarefa3Spec.hs:43
+expected: True
+ but got: False
+Cases: 35  Tried: 19  Errors: 0  Failures: 4                                            ### Failure in: 2:4:"T2B: Jogador apanha martelo e o tempo restante \233 maior que zero."
+test/Tarefa3Spec.hs:44
+expected: True
+ but got: False
+Cases: 35  Tried: 20  Errors: 0  Failures: 5                                            ### Failure in: 2:5:"T3: Jogador n\227o cai quando esta na escada."
+test/Tarefa3Spec.hs:50
+expected: Jogo {mapa = Mapa ((8.5,6.5),Este) (5.0,1.5) [[Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio],[Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio],[Vazio,Vazio,Vazio,Plataforma,Plataforma,Plataforma,Plataforma,Vazio,Vazio,Vazio],[Vazio,Vazio,Vazio,Escada,Vazio,Vazio,Escada,Vazio,Vazio,Vazio],[Vazio,Vazio,Vazio,Escada,Vazio,Vazio,Escada,Vazio,Vazio,Vazio],[Vazio,Vazio,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Vazio,Vazio],[Vazio,Vazio,Escada,Vazio,Vazio,Vazio,Vazio,Escada,Vazio,Vazio],[Vazio,Vazio,Escada,Vazio,Vazio,Vazio,Vazio,Escada,Vazio,Vazio],[Vazio,Alcapao,Plataforma,Plataforma,Alcapao,Plataforma,Plataforma,Plataforma,Plataforma,Vazio],[Vazio,Escada,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Escada,Vazio],[Vazio,Escada,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Escada,Vazio],[Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma]], inimigos = [], colecionaveis = [], jogador = Personagem {velocidade = (0.0,0.0), tipo = Jogador, posicao = (3.5,4.0), direcao = Oeste, tamanho = (0.8,0.8), emEscada = True, ressalta = False, vida = 10, pontos = 0, aplicaDano = (False,0.0)}, pausa = False}
+ but got: Jogo {mapa = Mapa ((8.5,6.5),Este) (5.0,1.5) [[Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio],[Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio],[Vazio,Vazio,Vazio,Plataforma,Plataforma,Plataforma,Plataforma,Vazio,Vazio,Vazio],[Vazio,Vazio,Vazio,Escada,Vazio,Vazio,Escada,Vazio,Vazio,Vazio],[Vazio,Vazio,Vazio,Escada,Vazio,Vazio,Escada,Vazio,Vazio,Vazio],[Vazio,Vazio,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Vazio,Vazio],[Vazio,Vazio,Escada,Vazio,Vazio,Vazio,Vazio,Escada,Vazio,Vazio],[Vazio,Vazio,Escada,Vazio,Vazio,Vazio,Vazio,Escada,Vazio,Vazio],[Vazio,Alcapao,Plataforma,Plataforma,Alcapao,Plataforma,Plataforma,Plataforma,Plataforma,Vazio],[Vazio,Escada,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Escada,Vazio],[Vazio,Escada,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Escada,Vazio],[Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma]], inimigos = [], colecionaveis = [], jogador = Personagem {velocidade = (0.0,0.0), tipo = Jogador, posicao = (3.0,3.5), direcao = Oeste, tamanho = (0.8,0.8), emEscada = True, ressalta = False, vida = 10, pontos = 0, aplicaDano = (False,0.0)}, pausa = False}
+Cases: 35  Tried: 21  Errors: 0  Failures: 6                                            ### Failure in: 2:6:"T4: Jogador n\227o atravessa o limite do mapa."
+test/Tarefa3Spec.hs:56
+expected: False
+ but got: True
+Cases: 35  Tried: 22  Errors: 0  Failures: 7                                            ### Failure in: 2:7:"T5: Alcapao e removido por jogador mas nao pelo inimigo."
+test/Tarefa3Spec.hs:80
+expected: Mapa ((8.5,6.5),Este) (5.0,1.5) [[Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio],[Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio],[Vazio,Vazio,Vazio,Plataforma,Plataforma,Plataforma,Plataforma,Vazio,Vazio,Vazio],[Vazio,Vazio,Vazio,Escada,Vazio,Vazio,Escada,Vazio,Vazio,Vazio],[Vazio,Vazio,Vazio,Escada,Vazio,Vazio,Escada,Vazio,Vazio,Vazio],[Vazio,Vazio,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Vazio,Vazio],[Vazio,Vazio,Escada,Vazio,Vazio,Vazio,Vazio,Escada,Vazio,Vazio],[Vazio,Vazio,Escada,Vazio,Vazio,Vazio,Vazio,Escada,Vazio,Vazio],[Vazio,Alcapao,Plataforma,Plataforma,Vazio,Plataforma,Plataforma,Plataforma,Plataforma,Vazio],[Vazio,Escada,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Escada,Vazio],[Vazio,Escada,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Escada,Vazio],[Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma]]
+ but got: Mapa ((8.5,6.5),Este) (5.0,1.5) [[Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio],[Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio],[Vazio,Vazio,Vazio,Plataforma,Plataforma,Plataforma,Plataforma,Vazio,Vazio,Vazio],[Vazio,Vazio,Vazio,Escada,Vazio,Vazio,Escada,Vazio,Vazio,Vazio],[Vazio,Vazio,Vazio,Escada,Vazio,Vazio,Escada,Vazio,Vazio,Vazio],[Vazio,Vazio,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Vazio,Vazio],[Vazio,Vazio,Escada,Vazio,Vazio,Vazio,Vazio,Escada,Vazio,Vazio],[Vazio,Vazio,Escada,Vazio,Vazio,Vazio,Vazio,Escada,Vazio,Vazio],[Vazio,Alcapao,Plataforma,Plataforma,Alcapao,Plataforma,Plataforma,Plataforma,Plataforma,Vazio],[Vazio,Escada,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Escada,Vazio],[Vazio,Escada,Vazio,Vazio,Vazio,Vazio,Vazio,Vazio,Escada,Vazio],[Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma,Plataforma]]
+Cases: 35  Tried: 23  Errors: 0  Failures: 8                                            ### Failure in: 2:8:"T6: Jogador apanha uma moeda"
+test/Tarefa3Spec.hs:87
+expected: True
+ but got: False
+Cases: 35  Tried: 24  Errors: 0  Failures: 9                                            ### Error in:   3:Tarefa4 (atualiza):0:"T01: Quando n\227o h\225 nenhuma ac\231\227o, o jogo permanece inalterado"
+test/Tarefa4Spec.hs:(56,3)-(61,5): Missing field in record construction pausa
+
+Cases: 35  Tried: 25  Errors: 1  Failures: 9Cases: 35  Tried: 26  Errors: 1  Failures: 9Cases: 35  Tried: 27  Errors: 1  Failures: 9Cases: 35  Tried: 28  Errors: 1  Failures: 9Cases: 35  Tried: 29  Errors: 1  Failures: 9Cases: 35  Tried: 30  Errors: 1  Failures: 9Cases: 35  Tried: 31  Errors: 1  Failures: 9                                            ### Failure in: 3:Tarefa4 (atualiza):4:T05:0:"A: Quando a ac\231\227o \233 Subir, o vetor velocidade do jogador \233 negativo na componente do Y"
+test/Tarefa4Spec.hs:116
+expected: True
+ but got: False
+Cases: 35  Tried: 32  Errors: 1  Failures: 10                                             ### Failure in: 3:Tarefa4 (atualiza):4:T05:1:"B: Quando a ac\231\227o \233 Subir, o jogador passa a estar em escada"
+test/Tarefa4Spec.hs:117
+expected: True
+ but got: False
+Cases: 35  Tried: 33  Errors: 1  Failures: 11                                             ### Failure in: 3:Tarefa4 (atualiza):5:T06:0:"A: Quando a ac\231\227o \233 Descer, o vetor velocidade do jogador \233 positivo na componente do Y"
+test/Tarefa4Spec.hs:137
+expected: True
+ but got: False
+Cases: 35  Tried: 34  Errors: 1  Failures: 12                                             ### Failure in: 3:Tarefa4 (atualiza):5:T06:1:"B: Quando a ac\231\227o \233 Descer, o jogador continua em escada"
+test/Tarefa4Spec.hs:138
+expected: True
+ but got: False
+Cases: 35  Tried: 35  Errors: 1  Failures: 13
+Test suite primate-kong-test: FAIL
+Test suite logged to: /home/beatriz/ProjetoLI1/2023li1g043/dist-newstyle/build/x86_64-linux/ghc-9.2.8/primate-kong-0.1.0.0/t/primate-kong-test/test/primate-kong-0.1.0.0-primate-kong-test.log
